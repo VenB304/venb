@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>server title template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css?v=8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow-orb orb-1" style="background: #4caf50;"></div> 
+        <div class="glow-orb orb-2" style="background: #2e7d32;"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <main class="container">
+        <div class="fade-in-up" style="width: 100%; max-width: 800px; margin-bottom: 20px;">
+            <a href="../index.html" style="color: var(--text-muted); text-decoration: none; display: flex; align-items: center; gap: 8px; font-size: 0.9rem;">
+                <i class="fa-solid fa-arrow-left"></i> Go Back
+            </a>
+        </div>
+
+        <header class="hero">
+            <h1 class="fade-in-up delay-1">server <span class="highlight" style="background: linear-gradient(135deg, #4caf50, #81c784); -webkit-background-clip: text;">name</span></h1>
+            <p class="subtitle fade-in-up delay-2">server life range</p>
+        </header>
+
+        <section class="links-grid">
+
+            <a href="./player_stats/index.html" class="card glass fade-in-up delay-4">
+                <div class="card-icon">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <div class="card-content">
+                    <h2>Leaderboards</h2>
+                    <p>Player Leaderboards & Stats</p>
+                </div>
+                <div class="card-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </a>
+
+            <a href="./world_render/index.html" class="card glass fade-in-up delay-5" style="opacity: 0.8;">
+                <div class="card-icon">
+                    <i class="fa-solid fa-image"></i>
+                </div>
+                <div class="card-content">
+                    <h2>World Render</h2>
+                    <p>2D Render in Top View</p>
+                </div>
+                <div class="card-arrow">
+                    <i class="fa-solid fa-arrow-right"></i>
+                </div>
+            </a>
+
+        </section>
+
+        <footer class="fade-in-up delay-6">
+            <p>message</p>
+        </footer>
+    </main>
+
+    <script src="../script.js"></script>
+</body>
+</html>
